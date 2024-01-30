@@ -1,4 +1,4 @@
-
+123
 N = int(input('please input how many number do you need :'))
 
 P = input('please input all the numbers :')
