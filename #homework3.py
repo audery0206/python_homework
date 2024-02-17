@@ -13,7 +13,7 @@ print(names_new)
 x=names_new.index('bob')
 print(x)
 
-if type(x) is int:
+if type(x) is int:  
     print('bob in the list')
 else:
     print('bob not found in the list')
