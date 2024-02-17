@@ -1,7 +1,7 @@
 #homework2
 #給定一個名為 numbers 的 list，其中包含一些整數。
-def numbers = list()
-def numbers_new = list()
+numbers = list()
+numbers_new = list()
     numbers = [11,5,13,14,5,16,5,24,22,100,5,90]
     print(numbers[1::2])
 #使用切片取得這個 list 中索引值為奇數的元素，並將其儲存在一個新的 list 中。
