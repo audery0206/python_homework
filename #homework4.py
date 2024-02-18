@@ -7,7 +7,7 @@ fruits = {
     'STRAWBERRY':200, 
     'BANANA':20
     }
-fruits['MANGO']
+print(fruits)
 #2. 存取dictionary中的元素：請寫一段程式碼，使用索引或get方法，從上一題建立的dictionary中存取某個水果的價格，並印出來。
 print (fruits.get('MANGO'))
 
