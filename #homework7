@@ -1,0 +1,21 @@
+#homework7
+with open('./foo.txt') as f:
+    lines = f.readlines()
+    print(lines[0])
+
+with open('./bar.txt', mode ='w') as f1:
+    f1.write('hello world')
+
+'''
+1. You are given a Python script that attempts to read from and write to files but contains some errors and inconsistencies. 
+Your task is to correct the code to achieve the intended functionality.
+The script is supposed to read from a file named foo.txt, extract specific lines, and print them. 
+Additionally, it tries to write a message to a file named bar.txt, but encounters a "io.UnsupportedOperation: not writable". 
+Your job is to fix these issues and ensure the script executes without errors.
+
+Input:
+The input consists of a Python script provided in the problem statement.
+Output:
+Correct the script such that it reads lines from foo.txt as intended and prints the desired output.
+Fix the error causing the "io.UnsupportedOperation: not writable" when trying to write to bar.txt.
+'''
