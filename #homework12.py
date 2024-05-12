@@ -12,6 +12,7 @@ You can use the modulo operator (n % x) to check if n is divisible by x.
 If the remainder is 0, it means n is divisible by x.
 nested loop
 '''
+check=False
 n=int(input('please enter a number:'))
 #for x in range(1, n+1):
 #print('n=',n)
@@ -19,6 +20,8 @@ for j in range(2, n):
 #    print('j=', j)
     if n%j==0 :
         print(n,'is not a prime number')
+        check=True 
         break
 #    else : 
-#        print(n,'is a prime number')
+if check == False:
+    print(n,'is a prime number')

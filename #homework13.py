@@ -14,6 +14,12 @@ x=0
 print(string.lower())
 y=string.lower()
 for letter in string.lower():
+    if letter in ['a','e','i','o','u']:
+        x=x+1
+print(x)
+
+
+'''
 #    print(letter)
     if 'a' in letter:
         x=x+1
@@ -34,3 +40,4 @@ for letter in string.lower():
         x=x
 #        print(x)
 print(x)
+'''
