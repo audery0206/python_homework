@@ -11,8 +11,8 @@ input = {
 }
 output ={
     key: (
-        value/100
-        if key is 'height'
+        float(value/100)
+        if key == 'height'
         else value
     )
     for key, value in input.items()
