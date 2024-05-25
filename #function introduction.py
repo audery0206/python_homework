@@ -29,3 +29,16 @@ echo(x1=1,x2=2,x3=3)
 #先positionaal 在 keyword
 #positionaal args用＊打包成list
 #keyword args用**打包成dict
+
+def add(*args, **kwargs):
+    total = sum(args)
+    return total
+
+result1 = add(1,2,3,4)
+result2 = add(1,2,3,4,5)
+result3 = add(1,2,3,4,5,6)
+result4 = add(1,2,3,4,5,6,7)
+print(result1)
+print(result2)
+print(result3)
+print(result4)
